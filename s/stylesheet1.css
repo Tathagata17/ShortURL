@@ -1,0 +1,62 @@
+body {
+    background-image: url('5183582.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 69% 100%;
+}
+  
+#main
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#loginpart
+{
+   
+    background-color: #FFFFFF;
+    height: 648px;
+    width: 500px;
+    border-radius: 68px 0px 0px 68px;
+    margin-left: 725px;
+
+}
+#logo
+{
+    color: #6E80FC;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bolder;
+}
+
+#urlinput
+{
+    height: 48px;
+    width:73%;
+    margin-left: 22%;
+    border-radius: 68px;
+    border: none;
+    background-color: #D9D9D9;
+    padding-left: 12px; 
+}
+#textinput
+{
+    height: 48px;
+    width:73%;
+    margin-left: 22%;
+    border-radius: 68px;
+    border: none;
+    background-color: #D9D9D9;
+    padding-left: 12px;    
+}
+#button
+{
+    height: 42px;
+    width:39%;
+    margin-left: 32%;
+    border-radius: 68px;
+    border: none;
+    background-color: #6E80FC;
+
+}
+

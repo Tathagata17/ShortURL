@@ -1,0 +1,29 @@
+echo"<table class='table table-striped'>
+<thead>
+  <tr>
+    <th scope='col'>Slno</th>
+    <th scope='col'>Urls</th>
+    <th scope='col'>Shorturl</th>
+    <th scope='col'>Text</th>
+    <th scope='col'>Clicks</th>
+  </tr>
+</thead>";
+
+while($row=mysqli_fetch_assoc($result))
+{
+$slno= $row['uid'];
+$url= $row['urls'];
+$text= $row['text'];
+$shorturl= "/s/g.php?v=".$text;
+$clicks= $row['clicks'];
+ echo"
+  <tbody>
+    <tr>
+      <th scope='row'>$slno</th>
+      <td>$url</td>
+      <td><a href='$shorturl'>$shorturl</a></td>
+      <td>$text</td>
+      <td>$clicks</td>
+    </tr>
+  </tbody>
+</table>";
